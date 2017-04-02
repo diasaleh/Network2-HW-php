@@ -1,0 +1,9 @@
+ <?php
+      $file = "data.txt";
+      $f=fopen($file, 'a');
+
+      $data = rand (0 , 100);
+      fwrite($f, $data); 
+      fclose($f);
+     
+?>

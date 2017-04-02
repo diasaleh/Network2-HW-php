@@ -1,6 +1,6 @@
 <?php
 ob_start();
-$file = 'img.png';
+$file = 'image.png';
 
 if (file_exists($file)) {
     header('Content-Description: File Transfer');
